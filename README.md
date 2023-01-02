@@ -1,2 +1,3 @@
-# 4coffee-mobile-app
+# CoffeeMachineMobileApp
+
 
