@@ -433,6 +433,7 @@
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-CoffeeMachineMobileApp-CoffeeMachineMobileAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5ZY2SFRQFJ;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -461,6 +462,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 5ZY2SFRQFJ;
 				INFOPLIST_FILE = CoffeeMachineMobileAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,6 +477,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "900c7043-f0c9-4c85-96ef-f29e119361ee";
+				PROVISIONING_PROFILE_SPECIFIER = "org.reactjs.native.example.CoffeeMachineMobileApp AppStore";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeMachineMobileApp.app/CoffeeMachineMobileApp";
 			};
 			name = Release;
@@ -485,7 +489,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5ZY2SFRQFJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CoffeeMachineMobileApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,7 +516,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5ZY2SFRQFJ;
 				INFOPLIST_FILE = CoffeeMachineMobileApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -524,6 +530,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CoffeeMachineMobileApp;
+				PROVISIONING_PROFILE = "900c7043-f0c9-4c85-96ef-f29e119361ee";
+				PROVISIONING_PROFILE_SPECIFIER = "org.reactjs.native.example.CoffeeMachineMobileApp AppStore";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
